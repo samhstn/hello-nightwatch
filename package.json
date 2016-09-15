@@ -1,0 +1,19 @@
+{
+  "name": "hello-nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "postInstall": "node postInstall.js",
+    "start": "node server.js",
+    "test": "node_modules/.bin/nightwatch && rm -rf tests_output selenium-debug.log"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.8",
+    "selenium-download": "^2.0.6"
+  },
+  "devDependencies": {}
+}
