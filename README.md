@@ -10,6 +10,12 @@ brew update
 brew cask install java
 ```
 
+Ensure the server is running with:
+
+```
+npm start
+```
+
 Then run:
 
 ```
